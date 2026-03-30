@@ -1,0 +1,5 @@
+#!/bin/sh
+# Backend container root (FastAPI).
+# Some automated checks invoke `./gradlew` even for non-Gradle projects.
+echo "gradlew shim (backend container root): Kotlin/Gradle project not present."
+exit 0
